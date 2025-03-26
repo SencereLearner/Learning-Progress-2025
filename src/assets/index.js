@@ -73,7 +73,14 @@ import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
-import twitter from "./socials/twitter.svg";
+import twitter from "./socials/twitter.svg"; 
+import python from "./python.svg";
+import sql from "./sql.svg";
+import docker from "./docker.svg";
+import git from "./git.svg";
+import api from "./api.svg";
+import linux from "./linux.svg";
+import clientServer from "./clientServer.svg"
 
 export {
   brainwave,
@@ -144,4 +151,11 @@ export {
   instagram,
   telegram,
   twitter,
+  python,
+  sql,
+  docker,
+  git,
+  api,
+  linux,
+  clientServer
 };

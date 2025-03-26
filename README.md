@@ -393,7 +393,6 @@ import {
   chromecast,
   disc02,
   discord,
-  python,
   discordBlack,
   facebook,
   figma,
@@ -544,7 +543,7 @@ export const collabApps = [
   {
     id: "1",
     title: "Notion",
-    icon: python,
+    icon: notion,
     width: 34,
     height: 36,
   },
