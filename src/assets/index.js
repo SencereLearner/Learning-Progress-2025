@@ -81,6 +81,11 @@ import git from "./git.svg";
 import api from "./api.svg";
 import linux from "./linux.svg";
 import clientServer from "./clientServer.svg"
+import sqlserver from "./sqlserver.svg"
+import apicogwheel from "./apicogwheel.svg"
+import gitbash from "./gitbash.svg"
+import clientserveruse from "./clientserveruse.svg"
+import fixedbplogo from "./fixedbplogo.svg"
 
 export {
   brainwave,
@@ -157,5 +162,10 @@ export {
   git,
   api,
   linux,
-  clientServer
+  clientServer,
+  sqlserver,
+  apicogwheel,
+  gitbash,
+  clientserveruse,
+  fixedbplogo
 };

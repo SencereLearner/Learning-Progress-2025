@@ -40,7 +40,13 @@ import {
   git,
   api,
   linux,
-  clientServer
+  clientServer,
+  sqlserver,
+  apicogwheel,
+  gitbash,
+  clientserveruse,
+  fixedbplogo
+
 } from "../assets";
 
 export const navigation = [
@@ -61,7 +67,7 @@ export const navigation = [
   // },
   {
     id: "3",
-    title: "Roadmap",
+    title: "Wisdom",
     url: "#roadmap",
   },
   // {
@@ -82,7 +88,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [python, linux, api, docker, sql, git, clientServer];
+export const companyLogos = [python, docker, git, apicogwheel, sqlserver, gitbash, clientserveruse];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -252,7 +258,7 @@ export const benefits = [
   {
     id: "0",
     title: "PYTHON",
-    text: "Python is a high-level, versatile programming language known for its readability and ease of use. It is widely used in web development, automation, data science, AI, and more.",
+    text: "A high-level, versatile programming language known for its readability and ease of use. It is widely used in web development, automation, data science, AI, and more.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -260,7 +266,7 @@ export const benefits = [
   {
     id: "1",
     title: "DOCKER",
-    text: "Docker is a platform for developing, shipping, and running applications in lightweight, portable containers. It simplifies deployment and ensures consistency across different environments.",
+    text: "A platform for developing, shipping, and running applications in lightweight, portable containers. It simplifies deployment and ensures consistency across different environments.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
@@ -269,7 +275,7 @@ export const benefits = [
   {
     id: "2",
     title: "GIT",
-    text: "Git is a distributed version control system that tracks changes in code, enables collaboration, and allows developers to manage projects efficiently.",
+    text: "It's is a distributed version control system that tracks changes in code, enables collaboration, and allows developers to manage projects efficiently.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
@@ -277,26 +283,26 @@ export const benefits = [
   {
     id: "3",
     title: "CI/CD",
-    text: "CI/CD stands for Continuous Integration/Continuous Deployment. It is a practice in software development where code changes are automatically integrated, tested, and deployed.",
+    text: "Stands for Continuous Integration/Continuous Deployment. It is a practice in software development where code changes are automatically integrated, tested, and deployed.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
+    iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
     light: true,
   },
   {
     id: "4",
     title: "SQL",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    text: "Structured Query Language is a programming language used to manage and manipulate relational databases. SQL is widely used in applications requiring structured data storage, such as web apps, business software, and data analytics.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
+    iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
     title: "BASH",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    text: "Bourne Again Shell is a command-line interpreter and scripting language for Unix-based operating systems. It allows users to execute commands, automate tasks, and manage system operations through scripts.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
+    iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
   },
   {
@@ -310,17 +316,17 @@ export const benefits = [
   {
     id: "7",
     title: "CLIENT SERVER",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    text: "Client-Server Architecture is a computing model where a client (user device or application) requests services or resources from a server (central system).",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
+    iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "8",
     title: "OTHER",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    text: "Rest, Soap, HTTP, gRPC, WebSockets, Fiddler, CURL, Local/Session storage, Swagger",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
+    iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
 ];
