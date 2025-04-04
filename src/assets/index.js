@@ -86,6 +86,7 @@ import apicogwheel from "./apicogwheel.svg"
 import gitbash from "./gitbash.svg"
 import clientserveruse from "./clientserveruse.svg"
 import fixedbplogo from "./fixedbplogo.svg"
+import pytestLogo from "./pytestLogo.svg"
 
 export {
   brainwave,
@@ -167,5 +168,6 @@ export {
   apicogwheel,
   gitbash,
   clientserveruse,
-  fixedbplogo
+  fixedbplogo,
+  pytestLogo
 };

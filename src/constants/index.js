@@ -45,7 +45,8 @@ import {
   apicogwheel,
   gitbash,
   clientserveruse,
-  fixedbplogo
+  fixedbplogo,
+  pytestLogo
 
 } from "../assets";
 
@@ -88,7 +89,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [python, docker, git, apicogwheel, sqlserver, gitbash, clientserveruse];
+export const companyLogos = [python, pytestLogo, docker, git, apicogwheel, sqlserver, gitbash, clientserveruse];
 
 export const brainwaveServices = [
   "Photo generating",
