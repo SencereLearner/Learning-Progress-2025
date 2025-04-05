@@ -80,13 +80,14 @@ import docker from "./docker.svg";
 import git from "./git.svg";
 import api from "./api.svg";
 import linux from "./linux.svg";
-import clientServer from "./clientServer.svg"
-import sqlserver from "./sqlserver.svg"
-import apicogwheel from "./apicogwheel.svg"
-import gitbash from "./gitbash.svg"
-import clientserveruse from "./clientserveruse.svg"
-import fixedbplogo from "./fixedbplogo.svg"
-import pytestLogo from "./pytestLogo.svg"
+import clientServer from "./clientServer.svg";
+import sqlserver from "./sqlserver.svg";
+import apicogwheel from "./apicogwheel.svg";
+import gitbash from "./gitbash.svg";
+import clientserveruse from "./clientserveruse.svg";
+import fixedbplogo from "./fixedbplogo.svg";
+import pytestLogo from "./pytestLogo.svg";
+import boldpenglogo from "./boldpenglogo.svg";
 
 export {
   brainwave,
@@ -169,5 +170,6 @@ export {
   gitbash,
   clientserveruse,
   fixedbplogo,
-  pytestLogo
+  pytestLogo,
+  boldpenglogo
 };

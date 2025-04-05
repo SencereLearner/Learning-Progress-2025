@@ -46,7 +46,8 @@ import {
   gitbash,
   clientserveruse,
   fixedbplogo,
-  pytestLogo
+  pytestLogo,
+  boldpenglogo
 
 } from "../assets";
 
@@ -68,7 +69,7 @@ export const navigation = [
   // },
   {
     id: "3",
-    title: "Wisdom",
+    title: "QA Wisdom",
     url: "#roadmap",
   },
   // {
@@ -165,56 +166,56 @@ export const collabApps = [
     id: "0",
     title: "Figma",
     icon: python,
-    width: 26,
+    width: 48,
     height: 36,
   },
   {
     id: "1",
     title: "Notion",
     icon: docker,
-    width: 34,
+    width: 48,
     height: 36,
   },
   {
     id: "2",
     title: "Discord",
     icon: git,
-    width: 36,
+    width: 48,
     height: 28,
   },
   {
     id: "3",
     title: "Slack",
     icon: api,
-    width: 34,
+    width: 48,
     height: 35,
   },
   {
     id: "4",
     title: "Photoshop",
     icon: sqlserver,
-    width: 34,
+    width: 48,
     height: 34,
   },
   {
     id: "5",
     title: "Protopie",
     icon: gitbash,
-    width: 34,
+    width: 48,
     height: 34,
   },
   {
     id: "6",
     title: "Framer",
     icon: clientServer,
-    width: 26,
+    width: 46,
     height: 34,
   },
   {
     id: "7",
     title: "Raindrop",
-    icon: slack,
-    width: 38,
+    icon: pytestLogo,
+    width: 50,
     height: 32,
   },
 ];
@@ -325,7 +326,7 @@ export const benefits = [
   {
     id: "8",
     title: "OTHER",
-    text: "Rest, Soap, HTTP, gRPC, WebSockets, Fiddler, CURL, Local/Session storage, Swagger",
+    text: "Rest API, Pytest, Web service protocols, Fiddler, CURL, Swagger",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
