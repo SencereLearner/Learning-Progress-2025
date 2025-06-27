@@ -88,6 +88,7 @@ import clientserveruse from "./clientserveruse.svg";
 import fixedbplogo from "./fixedbplogo.svg";
 import pytestLogo from "./pytestLogo.svg";
 import boldpenglogo from "./boldpenglogo.svg";
+import playwrightlogo from "./playwrightlogo.svg";
 
 export {
   brainwave,
@@ -171,5 +172,6 @@ export {
   clientserveruse,
   fixedbplogo,
   pytestLogo,
-  boldpenglogo
+  boldpenglogo,
+  playwrightlogo
 };
