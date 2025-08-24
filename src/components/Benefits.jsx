@@ -1,4 +1,4 @@
-import { benefits } from "../constants";
+import { benefits, projectLinks } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
@@ -11,15 +11,14 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl whitespace-nowrap"
-          title="Tools and Concepts I practiced"/>
+          title="Tools and Concepts I practiced"
+        />
 
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
-              style={{
-                backgroundImage: `url(${item.backgroundUrl})`,
-              }}
+              style={{ backgroundImage: `url(${item.backgroundUrl})` }}
               key={item.id}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
@@ -61,6 +60,28 @@ const Benefits = () => {
               <ClipPath />
             </div>
           ))}
+        </div>
+
+        {/* GitHub Project Links Section */}
+        <div className="mt-40">
+          <h2 className="text-5xl font-bold mb-8 ml-[21rem]">
+            My GitHub Projects
+          </h2>
+
+          <div className="flex justify-center gap-12 flex-wrap -ml-[60px]">
+            {projectLinks.map((project) => (
+              <a
+                key={project.id}
+                href={project.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-64 h-40 flex flex-col items-center justify-center text-center border-2 border-n-6 bg-n-8 text-white rounded-2xl shadow-lg hover:scale-105 hover:border-n-5 transition-transform"
+              >
+                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+                <p className="text-sm text-n-3">View on GitHub</p>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </Section>

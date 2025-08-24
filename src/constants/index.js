@@ -359,7 +359,7 @@ export const benefits = [
   {
     id: "11",
     title: "OTHER",
-    text: "Fiddler, CURL, Swagger",
+    text: "Fiddler, CURL, Swagger, Fiddler, CURL, Swagger",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -398,3 +398,10 @@ export const socials = [
     url: "#",
   },
 ];
+
+export const projectLinks = [
+  { id: 1, title: "Python Selenium Project", url: "https://github.com/SencereLearner/Python-Selenium-POM-Framework" },
+  { id: 2, title: "Python API Project", url: "https://github.com/SencereLearner/Python-Pytest-API-Framework" },
+  { id: 3, title: "Python Playwright Project", url: "https://github.com/SencereLearner/Python-Playwright-POM-Framework" },
+];
+
