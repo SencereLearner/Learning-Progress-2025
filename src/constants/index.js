@@ -359,7 +359,7 @@ export const benefits = [
   {
     id: "11",
     title: "OTHER",
-    text: "Fiddler, CURL, Swagger, Fiddler, CURL, Swagger",
+    text: "Fiddler, CURL, Swagger, Advanced DevTools and more",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,

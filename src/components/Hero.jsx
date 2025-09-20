@@ -36,7 +36,7 @@ const Hero = () => {
             </span> */}
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Each concept took days to grasp and practice.
+            Approximately 300 hours was put into studying
           </p>
           {/* <Button href="/pricing" white>
             Get started
