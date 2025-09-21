@@ -53,7 +53,7 @@ const Header = () => {
     onClick={handleClick}
     className={`block relative font-code uppercase text-n-1 transition-colors hover:text-color-1 ${
       item.title === "Features" || item.title === "QA Wisdom"
-        ? "text-3xl font-bold ml-48"   // 👈 shift both right
+        ? "text-3xl font-bold ml-80"   // 👈 shift both right
         : "text-2xl"
     } px-6 py-6 md:py-8 lg:font-semibold ${
       item.url === pathname.hash
